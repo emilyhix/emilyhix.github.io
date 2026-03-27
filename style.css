@@ -42,6 +42,11 @@
     background-color: black;
 }
 
+.threejs-container {
+  width: 100%;
+  height: 100%;
+}
+
 .subpage {
     color: white;
     text-align: center;

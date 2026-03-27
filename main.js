@@ -12,7 +12,7 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
-document.querySelector('.main').appendChild(renderer.domElement);
+document.querySelector('.threejs-container').appendChild(renderer.domElement);
 
 const scene = new THREE.Scene();
 
